@@ -10,5 +10,6 @@ const contents = prompt(" 내용 입력해줘").split(" ");
 contents.forEach((v) => {
   const btn = document.createElement("button");
   btn.innerText = v;
+  btn.style.color = "#d12345";
   document.body.appendChild(btn);
 });
